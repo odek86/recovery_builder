@@ -10,8 +10,7 @@ on:
 #      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+  workflow_dispatch:
 
 env:
   MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git
